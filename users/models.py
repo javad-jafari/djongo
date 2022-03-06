@@ -2,6 +2,10 @@ from djongo import models
 from django.contrib.auth.models import User
 
 
+class MyUser(User):
+    pass
+
+
 class Post(models.Model):
 
     content = models.TextField()
